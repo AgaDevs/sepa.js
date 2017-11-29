@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pain.001.001.06 pain.001.001.06.xsd">
+	<CstmrCdtTrfInitn>
+		<GrpHdr>
+			<MsgId>XMPL.20140201.TR0</MsgId>
+			<CreDtTm>2017-11-29T21:41:42.534Z</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<CtrlSum>50.23</CtrlSum>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>XMPL.20140201.TR0.0</PmtInfId>
+			<PmtMtd>TRF</PmtMtd>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>CORE</Cd>
+				</LclInstrm>
+			</PmtTpInf>
+			<ReqdExctnDt>2017-11-29</ReqdExctnDt>
+			<Dbtr>
+				<Nm/>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>DE40987654329876543210</IBAN>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgnt>
+				<FinInstnId>
+					<Othr>
+						<Id>NOTPROVIDED</Id>
+					</Othr>
+				</FinInstnId>
+			</DbtrAgnt>
+			<ChrgBr>SLEV</ChrgBr>
+			<CdtTrfTxInf>
+				<PmtId>
+					<InstrId>XMPL.20140201.TR0.0.0</InstrId>
+					<EndToEndId>XMPL.CUST487.INVOICE.54</EndToEndId>
+				</PmtId>
+				<Amt>
+					<InstdAmt Ccy="EUR">50.23</InstdAmt>
+				</Amt>
+				<CdtrAgt>
+					<FinInstnId>
+						<Othr>
+							<Id>NOTPROVIDED</Id>
+						</Othr>
+					</FinInstnId>
+				</CdtrAgt>
+				<Cdtr>
+					<Nm/>
+				</Cdtr>
+				<CdtrAcct>
+					<Id>
+						<IBAN>DE87123456781234567890</IBAN>
+					</Id>
+				</CdtrAcct>
+				<RmtInf>
+					<Ustrd>INVOICE 54</Ustrd>
+				</RmtInf>
+			</CdtTrfTxInf>
+		</PmtInf>
+	</CstmrCdtTrfInitn>
+</Document>
